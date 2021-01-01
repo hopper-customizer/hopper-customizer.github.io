@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hopper Customizer</title>
+<link rel="icon" type="image/png" href="misc_assets/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="misc_assets/favicon-16x16.png" sizes="16x16" />
+<link rel="stylesheet" href="layout.css" type="text/css">
+</head>
+
+<body>
+<img class = "header" src = "misc_assets/title banner.png" alt = "title"/>
+
+<div class = "container">
+<span class = "intro">
+<p>Welcome to the Hopper Customizer! Select some feature options below to get started.</p>
+</span>
+
+<div class="color_panel_div">
+  <div></div>
+  <div class="color_grid" id = "color_grid_1"></div>
+  <div class="color_grid" id = "color_grid_2"></div>
+</div>
+
+<div class="eye_panel_div">
+  <div> </div> <div></div>
+</div>
+
+<div class="other_panel_div" style = "grid-area:other_panels">
+  <div></div><div></div><div></div>
+</div>
+
+<div class = "hopper_container">
+  <img class="hopper base" id="base" src = "misc_assets/empty.png" alt = "base" style="position:relative"/>
+  <img class="hopper pattern" id="pattern" src = "misc_assets/empty.png" alt = "pattern" style="position:absolute"/>
+  <img class="hopper eye_base" id="eye_base" src = "misc_assets/empty.png" alt = "eye base" style="position:absolute"/>
+  <img class="hopper eye_asset" id="eye_asset" src = "misc_assets/empty.png" alt = "eye asset" style="position:absolute"/>
+  <img class="hopper hair" id="hair" src = "misc_assets/empty.png" alt = "hair" style="position:absolute"/>  
+  <img class="hopper antennae" id="antennae" src = "misc_assets/empty.png" alt = "antennae" style="position:absolute"/> 
+  <img class="hopper watermark" id="watermark" src = "misc_assets/watermark.png" alt = "watermark" style="position:absolute"/> 
+  <canvas class = "hopper_canvas" id="hopper_canvas" width="1100" height="1100"></canvas>
+  <div class="hopper" style="position:absolute; z-index: 80"> </div>
+  <button class="save" id = "save"> </button>
+  <button class="new_tab" id = "new_tab"> </button>
+</div>
+
+<div style = "grid-area:empty"></div>
+</div>
+<div class = "footer2"> Created by <a href="https://aj-item-worth.fandom.com/wiki/User:BrightSunshine" target="_blank">BrightSunshine</a> • Licensed under <a href = "https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC 4.0</a> • Fonts and some assets adapted from the <a href="https://www.animaljamarchives.com/" target="_blank">Animal Jam Archives</a> • Fair-use of copyrighted material from <a href="https://www.wildworks.com/" target="_blank">WildWorks</a></div>
+	
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
