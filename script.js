@@ -174,6 +174,7 @@ antennae.onload = function() {
 	      ctx.drawImage(hair,0,0);
 	      watermark.src = document.getElementById("watermark").src;
 	      watermark.onload = function() {
+		ctx.drawImage(watermark,0,0);      
 	        var image = hopper_canvas.toDataURL("image/png");
 		if (type == "new_tab") { 
 		  var newTab = window.open();
