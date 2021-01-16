@@ -15,7 +15,7 @@ Welcome to the Hopper Customizer's GitHub page! This project (website located at
 
 # Notes
 * Completely safe to use: your personal data is not accessed or stored anywhere and website requires no AJC account information
-* Website has been optimized to best fit desktop screens 
+* Website has been optimized to best fit desktop screens - mobile users can rotate for better viewing
 * Cannot zoom in by usual means: please utilize the "new tab" functionality (this has been done so the website can maintain proportions)
 * Intended for use in Chrome, may not work in other browsers
 * Please respect the watermark: by keeping it, you grant me credit for the image :)
