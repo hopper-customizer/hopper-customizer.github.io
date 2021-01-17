@@ -23,7 +23,7 @@ body {
 .container {
   display: inline-grid;
   grid-template-columns: 21vw 21vw 21vw 34vw;
-  grid-template-rows: auto auto 10vh;
+  grid-template-rows: auto auto 8vh;
   grid-template-areas:
     'text text text hopper'
     'color_panel eye_panel other_panels hopper'
@@ -63,7 +63,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1%;
-  width:18vw;
+  width:20vw;
   position:relative;
 }
 
