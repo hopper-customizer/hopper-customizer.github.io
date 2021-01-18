@@ -6,6 +6,9 @@
 html {
   min-height: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -23,7 +26,7 @@ body {
 .container {
   display: inline-grid;
   grid-template-columns: 21vw 21vw 21vw 34vw;
-  grid-template-rows: auto auto 8vh;
+  grid-template-rows: auto auto 7vh;
   grid-template-areas:
     'text text text hopper'
     'color_panel eye_panel other_panels hopper'
