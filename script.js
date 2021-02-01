@@ -183,7 +183,7 @@ antennae.onload = function() {
   		else { 
 		  var a  = document.createElement('a');
    	  	  a.href = image;
-		  a.download = image; 
+		  a.download = "hopper.png"; //fix from CheesyPotatoes :)
     		  a.click();
 		}
 	      }
