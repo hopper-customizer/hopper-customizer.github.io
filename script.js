@@ -18,6 +18,7 @@ updateAsset("pattern","no pattern");
 
 document.getElementById("save").addEventListener("click", function() { mergeImages("save"); } );
 document.getElementById("new_tab").addEventListener("click", function() { mergeImages("new_tab"); } );
+document.getElementById("close").addEventListener("click", function() { document.getElementById("notice").style.visibility = "hidden"; } );
 
 function setColorButtons(className) {
 var colorNames = ["dark red", "light red", "dark pink", "light pink", "dark purple", "light purple", "black", "white", "dark blue", "teal", "burple", "yellow", "dark green", "medium green", "lime", "mint", "dark brown", "light brown", "orange", "mustard"];
